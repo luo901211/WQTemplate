@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  WQStartKit
+//
+//  Created by wenqi on 17/3/7.
+//  Copyright © 2017年 wenqi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//引入Masonry两个宏 便于写布局代码
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#import <DDLog.h>
+#import <AFNetworking/AFNetworking.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <Masonry/Masonry.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+//#import <YYKit/YYKit.h>
+#import "GVUserDefaults+BBProperties.h"
+
+#import "YYText.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+MP.h"
+#import "UIImageView+WebCache.h"
+#import "MWPhotoBrowser.h"
+#import "KeyboardManager.h"
+
+// Macros
+#import "ApiMacros.h"
+#import "Macros.h"
+#import "WQTargetConfigMacros.h"
+#import "ThirdMacros.h"
+
+// Const
+#import "WQConstants.h"
+#import "WQEnumerateHeader.h"
+#import "WQTargetConfigContants.h"
+#import "NotificationContants.h"
+
+// Network
+#import "APIConfig.h"
+// Tool
+#import "MPUmengHelper.h"
+
+
+#endif /* PrefixHeader_pch */
